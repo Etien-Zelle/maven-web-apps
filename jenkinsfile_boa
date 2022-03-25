@@ -10,16 +10,16 @@ node{
       stage('3.CodeQuality'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
   }
-   /* stage('4.UploadArtifacts'){
-    sh "${mavenHome}/bin/mvn deploy"
+    stage('4.UploadArtifacts'){
+    /*sh "${mavenHome}/bin/mvn deploy"
   }
   */
       stage('6.Deploy2dev'){
-      deploy adapters: [tomcat9(credentialsId: 'Tomcat_Credentials', path: '', url: 'http://18.207.210.70:8080/')], contextPath: null, war: 'target/web-app.war'
+      deploy adapters: [tomcat9(credentialsId: 'Tomcat_Credentials', path: '', url: 'http://35.171.20.101:8080/')], contextPath: null, war: 'target/web-app.war'
 }
       stage('5.Deploy2uat'){
         sshagent(['agentcredentials']) {
-        sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@172.31.89.218:/opt/tomcat9/webapps/uat.war"
+        sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@172.31.88.9:/opt/tomcat9/webapps/uat.war"
         
 }
       
@@ -31,7 +31,7 @@ node{
      }
    stage('8.Deploy2prod'){
         sshagent(['agentcredentials']) {
-        sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@172.31.89.218:/opt/tomcat9/webapps/app.war"
+        sh "scp -o StrictHostKeyChecking=no target/*.war ec2-user@172.31.88.9:/opt/tomcat9/webapps/app.war"
         
 }
       
