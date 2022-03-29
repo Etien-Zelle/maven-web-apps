@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://100.26.186.240:8081/repository/wells-fago-eleases/</url>
+	      <url>http://34.207.70.171:8081/repository/fintech_releases2/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://100.26.186.240:8081/repository/wells-fago-snapshot//</url>
+	      <url>http://34.207.70.171:8081/repository/fintech_shaoshot2/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
