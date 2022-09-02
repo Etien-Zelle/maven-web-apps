@@ -19,6 +19,7 @@
 	Whatever you belive in, all we say is that there is an Almighty being that is above all and his name is God. May your new week bring more successes</h2>
 	<h1>Good evening great engineers of the motherland Bamunkumbit. I encourage us all to keep on with the hardwork on the Landmark Tech Devops. By the specail hevamenly grace, 
 	I tell you, our kingdom will have a face lift from you great engineers</h1>
+	<hi color="blue">I am so grateful for the warm and splendid Birthday. I thank my wfie and all who came by</hi>
 	
 	<h1><h3> Server Side IP Address </h3><br>
 	<h1>#!/bin/bash
