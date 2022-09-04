@@ -20,7 +20,7 @@
 	<h1>Good evening great engineers of the motherland Bamunkumbit. I encourage us all to keep on with the hardwork on the Landmark Tech Devops. By the specail hevamenly grace, 
 	I tell you, our kingdom will have a face lift from you great engineers</h1>
 	<h3 color="blue">I am so grateful for the warm and splendid Birthday. I thank my wfie and all who came by</h3>
-	<h2 color="green">My beautiful wife "Linda is a blessing from God the King of Kings. I love her so much"<color="green"/h2>
+	<h2 color="green">My beautiful wife "Linda is a blessing from God the King of Kings. I really love her so much"<color="green"/h2>
 	
 	<h1><h3> Server Side IP Address </h3><br>
 	<h1>#!/bin/bash
