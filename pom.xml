@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://44.201.159.82:8081/repository/paypal-releases/</url>
+	      <url>Nexus snapshot: http://34.230.5.135:8081/repository/etlina_app_Service-snapshot/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://44.201.159.82:8081/repository/paypal-snapshot/</url>
+	      <name>Landmark Technologies Snapshot Nexus Repository</name>
+	      <url>Nexus releases: http://34.230.5.135:8081/repository/etlina_app_Service-releases/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
