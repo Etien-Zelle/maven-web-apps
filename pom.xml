@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.82.34.121:8081/repository/boa-job-releases/</url>
+	      <url>http://54.83.87.192:8081/repository/boa-job-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://54.82.34.121:8081/repository/boa-job-snapshot/</url>
+	      <url>http://54.83.87.192:8081/repository/boa-job-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
